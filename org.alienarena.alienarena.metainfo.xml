@@ -30,6 +30,8 @@
   </screenshots>
   <url type="homepage">https://alienarena.org</url>
   <url type="source">https://svn.icculus.org/alienarena/trunk/</url>
+  <url type="help">https://discord.gg/Rd5fwBg</url>
+  <url type="help">https://matrix.to/#/#alienarena:matrix.org/</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
