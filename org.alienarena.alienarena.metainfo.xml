@@ -39,7 +39,7 @@
       <description>
         <ul>
           <li>The player setup will handle classic player models better.</li>
-          <li>There is a new command to install classic model packs: installmodel.</li>
+          <li>There is a new command to install classic player models: installmodel.</li>
         </ul>
       </description>
     </release>
