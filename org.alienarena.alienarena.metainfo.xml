@@ -36,7 +36,12 @@
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
     <release version="7.71.5" date="2023-08-26">
-      It will handle the classic models better and there is a new command for installing them: installmodel.
+      <description>
+        <ul>
+          <li>The player setup will handle classic player models better.</li>
+          <li>There is a new command to install classic player models: installmodel.</li>
+        </ul>
+      </description>
     </release>
   </releases>
 </component>
