@@ -15,8 +15,8 @@ modules:
     no-autogen: true
     sources:
       - type: svn
-        url: svn://svn.icculus.org/alienarena/tags/7.71.5
-        revision: 5753
+        url: svn://svn.icculus.org/alienarena/tags/7.71.6
+        revision: 5772
       - type: file
         path: org.alienarena.alienarena.metainfo.xml
     post-install:
