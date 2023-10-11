@@ -32,8 +32,12 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://alienarena.org</url>
-  <url type="source">https://svn.icculus.org/alienarena/trunk/</url>
+  <url type="vcs-browser">https://svn.icculus.org/alienarena/trunk</url>
+  <url type="vcs-browser">https://github.com/alienarena/alienarena</url>
+  <url type="donation">https://www.buymeacoffee.com/alienarena</url>
+  <url type="donation">https://github.com/sponsors/alienarena</url>
   <url type="help">https://alienarena.org/#support</url>
+  <url type="contact">https://discord.gg/Rd5fwBg</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
