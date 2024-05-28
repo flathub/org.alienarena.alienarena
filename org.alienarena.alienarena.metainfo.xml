@@ -3,6 +3,7 @@
   <id>org.alienarena.alienarena</id>
   <launchable type="desktop-id">org.alienarena.alienarena.desktop</launchable>
   <name>Alien Arena</name>
+  <developer_name>COR Entertainment</developer_name>
   <summary>Ultra fast paced arena FPS</summary>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">moderate</content_attribute>
@@ -21,7 +22,7 @@
     <p>Join our daily CTF matches on the AAOCS server! These are usually between 19:00 UTC and 23:00 UTC.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_1d1f090bdd83c2f456783b61f8f7121383ec455b.600x338.jpg?t=1680636339</image>
     </screenshot>
     <screenshot>
