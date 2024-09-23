@@ -18,7 +18,7 @@ modules:
         url: svn://svn.icculus.org/alienarena/tags/7.71.7
         revision: 5788
       - type: file
-        url: https://svn.icculus.org/*checkout*/alienarena/tags/7.71.7/flatpak/org.alienarena.alienarena.metainfo.xml?content-type=text%2Fplain
+        path: org.alienarena.alienarena.metainfo.xml
     post-install:
       - desktop-file-edit unix_dist/alien-arena.desktop --set-key Exec --set-value alienarena --set-key Icon --set-value org.alienarena.alienarena
       - install -Dm644 unix_dist/alien-arena.png /app/share/icons/hicolor/256x256/apps/org.alienarena.alienarena.png
