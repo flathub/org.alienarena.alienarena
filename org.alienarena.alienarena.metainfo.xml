@@ -21,26 +21,33 @@
     <p>Join our daily CTF matches on the AAOCS server! These are usually between 19:00 UTC and 23:00 UTC.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_eadc7d01121046acb85658001cfea5d5576eef72.600x338.jpg?t=1680636339</image>
+      <caption>2 Aliens with blasters</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_1d1f090bdd83c2f456783b61f8f7121383ec455b.600x338.jpg?t=1680636339</image>
+      <caption>Gameplay with flamethrower</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_f032f4a34e2ec5bdc90c9750272dd279129934b6.600x338.jpg?t=1696157905</image>
+      <caption>In-game characters</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_5488d1469bc1cc6cae195329d3e4724da46b09a5.600x338.jpg?t=1696157905</image>
+      <caption>Player with rocket launcher</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_de6b20226858120f5de3ed689d438d39914a0543.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_9719f6c8244252626fb2fd3149aa6e1f5035536c.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_e81336cb4c628c2c95f51e948865042631fcd723.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
     </screenshot>
   </screenshots>
   <url type="homepage">https://alienarena.org</url>
