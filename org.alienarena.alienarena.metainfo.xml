@@ -3,7 +3,7 @@
   <id>org.alienarena.alienarena</id>
   <launchable type="desktop-id">org.alienarena.alienarena.desktop</launchable>
   <name>Alien Arena</name>
-  <developer_name>COR Entertainment</developer_name>
+  <developer_name>Alien Arena team - previously COR Entertainment</developer_name>
   <summary>Ultra fast paced arena FPS</summary>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">moderate</content_attribute>
@@ -13,7 +13,6 @@
     <content_attribute id="language-humor">mild</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-info">intense</content_attribute>
-    <content_attribute id="money-advertising">mild</content_attribute>
   </content_rating>
   <description>
     <p>Do you like old school deathmatch with modern features? How about rich, colorful, arcade-like atmospheres? How about...retro Sci Fi? Then you're going to love what Alien Arena has in store for you! This game combines some of the very best aspects of such games as Quake III and Unreal Tournament and wraps them up with a retro alien theme, while adding tons of original ideas to make the game quite unique.</p>
@@ -23,17 +22,35 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_1d1f090bdd83c2f456783b61f8f7121383ec455b.600x338.jpg?t=1680636339</image>
-    </screenshot>
-    <screenshot>
-      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_ac2a05d7c090886ad40c2b9f1eea07a2877010e6.600x338.jpg?t=1680636339</image>
-    </screenshot>
-    <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_eadc7d01121046acb85658001cfea5d5576eef72.600x338.jpg?t=1680636339</image>
+      <caption>2 Aliens with blasters</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_1d1f090bdd83c2f456783b61f8f7121383ec455b.600x338.jpg?t=1680636339</image>
+      <caption>Gameplay with flamethrower</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_f032f4a34e2ec5bdc90c9750272dd279129934b6.600x338.jpg?t=1696157905</image>
+      <caption>In-game characters</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_5488d1469bc1cc6cae195329d3e4724da46b09a5.600x338.jpg?t=1696157905</image>
+      <caption>Player with rocket launcher</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_de6b20226858120f5de3ed689d438d39914a0543.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_9719f6c8244252626fb2fd3149aa6e1f5035536c.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_e81336cb4c628c2c95f51e948865042631fcd723.600x338.jpg?t=1696157905</image>
+      <caption>Map showcase</caption>
     </screenshot>
   </screenshots>
   <url type="homepage">https://alienarena.org</url>
-  <url type="faq">https://alienarena.fandom.com/wiki/Frequently_Asked_Questions</url>
   <url type="help">https://steamcommunity.com/sharedfiles/filedetails/?id=1185832191</url>
   <url type="vcs-browser">https://svn.icculus.org/alienarena/trunk</url>
   <url type="donation">https://www.buymeacoffee.com/alienarena</url>
@@ -41,6 +58,18 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
+    <release version="7.71.7" date="2024-09-23">
+      <description>
+        <ul>
+          <li>Added Discord button in the main menu to easily join the Discord server</li>
+          <li>Automatic installation of map packs before loading a map (by default enabled)</li>
+          <li>Fixed a map difference error bug after reinstalling a map.</li>
+          <li>Added option to override the sky from the fog script (only relevant to mappers)</li>
+          <li>Removed the sponsor banner</li>
+          <li>Increased default time that messages appear in the screen to 6 seconds and can be changed and remembered now</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.71.6" date="2023-09-23">
       <description>
         <ul>
@@ -55,4 +84,3 @@
     </release>
   </releases>
 </component>
-
