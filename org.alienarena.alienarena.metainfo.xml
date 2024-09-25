@@ -5,6 +5,10 @@
   <name>Alien Arena</name>
   <developer_name>Alien Arena team - previously COR Entertainment</developer_name>
   <summary>Ultra fast paced arena FPS</summary>
+  <branding>
+    <color type="primary" scheme_preference="light">#b9f1c5</color>
+    <color type="primary" scheme_preference="dark">#0c2512</color>
+  </branding>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">moderate</content_attribute>
     <content_attribute id="violence-fantasy">moderate</content_attribute>
@@ -23,7 +27,7 @@
   <screenshots>
     <screenshot type="default">
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_eadc7d01121046acb85658001cfea5d5576eef72.600x338.jpg?t=1680636339</image>
-      <caption>2 Aliens with blasters</caption>
+      <caption>Two aliens with blasters</caption>
     </screenshot>
     <screenshot>
       <image>https://cdn.akamai.steamstatic.com/steam/apps/629540/ss_1d1f090bdd83c2f456783b61f8f7121383ec455b.600x338.jpg?t=1680636339</image>
@@ -63,7 +67,7 @@
         <ul>
           <li>Added Discord button in the main menu to easily join the Discord server</li>
           <li>Automatic installation of map packs before loading a map (by default enabled)</li>
-          <li>Fixed a map difference error bug after reinstalling a map.</li>
+          <li>Fixed a map difference error bug after reinstalling a map</li>
           <li>Added option to override the sky from the fog script (only relevant to mappers)</li>
           <li>Removed the sponsor banner</li>
           <li>Increased default time that messages appear in the screen to 6 seconds and can be changed and remembered now</li>
