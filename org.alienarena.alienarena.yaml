@@ -16,7 +16,7 @@ modules:
     sources:
       - type: svn
         url: svn://svn.icculus.org/alienarena/tags/7.71.7
-        revision: 5791
+        revision: 5797
       - type: file
         path: org.alienarena.alienarena.metainfo.xml
     post-install:
