@@ -1,6 +1,6 @@
 id: org.alienarena.alienarena
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: alienarena
 finish-args:
@@ -12,11 +12,13 @@ finish-args:
 modules:
   - name: alienarena
     buildsystem: autotools
+    build-options:
+      cflags: -Wno-error=incompatible-pointer-types -Wno-error=int-conversion -Wno-error=return-mismatch -Wno-error=implicit-function-declaration
     no-autogen: true
     sources:
       - type: svn
         url: svn://svn.icculus.org/alienarena/tags/7.71.7
-        revision: 5800
+        revision: '5800'
       - type: file
         path: org.alienarena.alienarena.metainfo.xml
     post-install:
@@ -24,4 +26,5 @@ modules:
       - install -Dm644 unix_dist/alien-arena.png /app/share/icons/hicolor/256x256/apps/org.alienarena.alienarena.png
       - install -Dm644 unix_dist/alien-arena.desktop /app/share/applications/org.alienarena.alienarena.desktop
       - install -Dm644 org.alienarena.alienarena.metainfo.xml /app/share/appdata/org.alienarena.alienarena.metainfo.xml
+      - install -Dm644 /app/share/doc/alienarena/{COPYING,GPLv2} -t /app/share/licenses/$FLATPAK_ID/alienarena/
 
