@@ -62,6 +62,24 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
+    <release version="7.72" date="2026-05-17">
+      <description>
+        <ul>
+          <li>Project 100: optimized the game to support at least 100 FPS framerate, 100 FPS server tickrate, 100 PPS packet rate, and mouse polling rate that aligns with the framerate, this greatly improves the smoothness and responsiveness of the game</li>
+          <li>Extended single player mode with more game modes and weapon modes, CTF and Tactical (https://steamcommunity.com/sharedfiles/filedetails/?id=1185375745), Insta and Insta/Rockets</li>
+          <li>Added fairer antilag calculation based on one-way ping with server-side configuration options and diminishing effect on very high pings</li>
+          <li>Optimized mouse movement logic (this is under cvar m_direct, recommended to set m_direct to 1)</li>
+          <li>Added centered message about who killed you</li>
+          <li>Drop old particles if the particle buffer is full</li>
+          <li>Check ragdoll buffer before creating new ragdolls</li>
+          <li>Fixed bug with crashing clients when lots of rockets were fired</li>
+          <li>Fixed bug with duplicate ragdolls</li>
+          <li>Fixed bug with ragdolls hanging in mid air</li>
+          <li>Fixed bug with disappearing flag in CTF mode when people quit the match or disconnected</li>
+          <li>Added command teamselect to the list of available commands</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.71.7" date="2024-09-23">
       <description>
         <ul>
