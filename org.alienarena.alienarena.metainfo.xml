@@ -20,7 +20,11 @@
   </content_rating>
   <description>
     <p>Do you like old school deathmatch with modern features? How about rich, colorful, arcade-like atmospheres? How about...retro Sci Fi? Then you're going to love what Alien Arena has in store for you! This game combines some of the very best aspects of such games as Quake III and Unreal Tournament and wraps them up with a retro alien theme, while adding tons of original ideas to make the game quite unique.</p>
-    <p>Note about the "Potentially unsafe" warning: This game uses the xorg legacy windowing system, and allows the use of a joystick or controller.</p>
+    <h3>Project 100</h3>
+    <p>Release 7.72 and later has been optimized to smoothly run at least a 100 FPS frame rate on a 100-tick server with 100 PPS packet rate, and with a mouse polling rate that aligns with the frame rate. This greatly improves the smoothness and responsiveness of the game. Also the lag compensation got an improvement to match the 100-tick server better and to make it fairer to low-ping players, which is configurable per server.
+    <h3>Single player</h3>
+    <p>Also from 7.72 and later you can now practice the game modes CTF and Tactical from the single player menu, for Deathmatch and CTF you can now also choose weapon modes Insta and Insta/Rockets.</p>
+    <br><p>Note about the "Potentially unsafe" warning: This game uses the xorg legacy windowing system, and allows the use of a joystick or controller.</p>
     <p>To find people to play with or if you are having issues please join us on Discord, Matrix or IRC, see alienarena.org.</p>
     <p>Join our daily CTF matches on the AAOCS server! These are usually between 19:00 UTC and 23:00 UTC.</p>
   </description>
@@ -62,6 +66,14 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0-or-later</project_license>
   <releases>
+    <release version="7.72.1" date="2026-05-24">
+      <description>
+        <ul>
+          <li>Fixed stuttering issue at 60 FPS</li>
+          <li>Fixed bot firing rate at high tick rates</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.72" date="2026-05-17">
       <description>
         <ul>
