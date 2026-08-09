@@ -18,7 +18,7 @@ modules:
     sources:
       - type: svn
         url: svn://svn.icculus.org/alienarena/trunk
-        revision: '5890'
+        revision: '5901'
       - type: file
         path: org.alienarena.alienarena.metainfo.xml
     post-install:
