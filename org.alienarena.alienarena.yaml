@@ -1,6 +1,6 @@
 id: org.alienarena.alienarena
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: alienarena
 finish-args:
@@ -18,7 +18,7 @@ modules:
     sources:
       - type: svn
         url: svn://svn.icculus.org/alienarena/trunk
-        revision: '5901'
+        revision: '5941'
       - type: file
         path: org.alienarena.alienarena.metainfo.xml
     post-install:

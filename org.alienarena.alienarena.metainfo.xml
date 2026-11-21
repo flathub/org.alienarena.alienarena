@@ -76,6 +76,48 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="7.72.4" date="2026-11-21">
+      <description>
+        <p>Gameplay and performance optimizations</p>
+        <ul>
+          <li>Added sub-tick accumulation, to fix movement issues with low framerate and to optimize strafing</li>
+          <li>More lag compensation for players with packet loss</li>
+          <li>More lag compensation for players with an unstable ping</li>
+          <li>Enhanced dynamic culling, based on the combination of entity count and connection quality</li>
+          <li>Added bot reaction time and bot sight range to better control bot difficulty on high tickrates</li>
+          <li>Bots now visibly turn towards you before shooting</li>
+          <li>Fixed bug that bots shot at already dead targets</li>
+        </ul>
+        <p>Netcode optimizations</p>
+        <ul>
+          <li>Added sv_netdebug for showing detailed packet info per player</li>
+          <li>Increased entity state buffer size, to prevent packets being overwritten before having been confirmed, leading to full packet floods</li>
+          <li>Added resync throttling, to only send one full packet instead of 100+ on high ping</li>
+        </ul>
+        <p>Graphical improvements and additions</p>
+        <ul>
+          <li>Added chat overlay, showing the last x number of messages for the specific chat</li>
+          <li>Fixed flag and teleporter animation speed</li>
+          <li>Small graphical improvement to the HUD</li>
+        </ul>
+        <p>Other</p>
+        <ul>
+          <li>Close console with Escape</li>
+          <li>Enabled map downloads via https</li>
+          <li>Updated cvar and commands documentation</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.72.3" date="2026-10-23">
+      <description>
+        <ul>
+          <li>Fixed remaining issue with disappearing flag</li>
+          <li>Fixed bug with wrongfully rewarded reward points</li>
+          <li>Increased reward points to three positions in the HUD</li>
+          <li>Disabled leaning</li>
+        </ul>
+      </description>
+    </release>
     <release version="7.72.2" date="2026-08-09">
       <description>
         <ul>
